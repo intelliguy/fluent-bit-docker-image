@@ -8,7 +8,7 @@ ENV FLB_MINOR 12
 ENV FLB_PATCH 5
 ENV FLB_VERSION 0.12.5
 
-ENV FLB_TARBALL http://github.com/fluent/fluent-bit/archive/v$FLB_VERSION.zip
+ENV FLB_TARBALL http://github.com/intelliguy/fluent-bit/archive/v$FLB_VERSION.zip
 
 RUN mkdir -p /fluent-bit/bin /fluent-bit/etc /fluent-bit/log
 
