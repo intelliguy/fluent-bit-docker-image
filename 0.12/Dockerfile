@@ -12,6 +12,7 @@ ENV FLB_TARBALL http://github.com/intelliguy/fluent-bit/archive/v$FLB_VERSION.zi
 
 RUN mkdir -p /fluent-bit/bin /fluent-bit/etc /fluent-bit/log
 
+
 RUN apt-get -qq update \
     && apt-get install -y -qq \
        build-essential \
